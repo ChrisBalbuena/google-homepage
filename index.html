@@ -3,58 +3,44 @@
 
 	<head>
 		<title>Google</title>
-		<style>
-		#nav .nav_link {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				display:inline-block;
-				position: relative;
-				padding-right: 30px;
-			}
-
-		#footer .footer_link {
-				display:inline-block;
-				padding-top: 580px;
-			}
-
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
-		<div>
-			<ul id="nav" style="text-align: right;">
-				<li class="nav_link">Name</li>
-				<li class="nav_link">Gmail</li>
-				<li class="nav_link">Images</li>	
-				<li class="nav_link">Options</li>
-				<li class="nav_link">Notification</li>
-				<li class="nav_link">Profile</li>
+		<div class="nav">
+				<a class="ntext" href="">+You</a>
+				<a class="ntext" href="">Gmail</a>
+				<a class="ntext" href="">Images</a>	
+				<a class="ntext" href=""><img src="menu.png"></a>
+				<a class="ntext" href=""><img src="bell.png"></a>
+				<div class="circle"></div>
 			</ul>
 		</div>
 
 	
-		<div style="text-align: center">
+		<div  class="content">
+				<img class="logo" src= "logo.png" alt= "Google Logo" >
+			
+			
+				<form >
+					<input type="text">
+				</form>
 
-			<img height="95" width="269"  style="padding-top: 112px;" src= "https://www.google.com/images/srpr/logo11w.png" alt= "Google Logo" >
-	
-			<form>
-				<input type="search" name="search" size="50">
-			</form>
-
-			<button type="button">Google Search</button>
-			<button type="button">I'm feeling Lucky</button>
+				<button type="button">Google Search</button>
+				<button type="button">I'm feeling Lucky</button>
 		</div>
 
 		<div id="fbar">
-			<ul id="footer">
-				<li class="footer_link">Avertising</li>
-				<li class="footer_link" style="padding-left: 30px">Business</li>
-				<li class="footer_link" style="padding-left: 30px">About</li>	
-				<li class="footer_link" style="padding-left: 1000px">Privacy &amp; Terms</li>
-				<li class="footer_link" style="padding-left: 30px">Settings</li>
-			</ul>
+				<span id="lfooter">
+					<a href="">Advertising</a>
+					<a class="flpad" href="">Business</a>
+					<a class="flpad" href="">About</a>
+				</span>
+
+				<span id="rfooter">
+					<a class="frpad" href="">Privacy &amp; Terms</a>
+					<a href="">Settings</a>
+				</span>	
 			</ul>
 		</div>
 	</body>
