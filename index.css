@@ -19,10 +19,13 @@
 		.nav {
 			color: #666;
 			font-size: 100%;
-			float: right;
+			position: absolute;
+			left: 80%;
 			padding-right: 25px;
 			padding-top: 10px;
 			display: inline-block;
+			height: 40px; 
+			width: 315px;
 		}
 
 		.ntext {
@@ -30,6 +33,16 @@
 			line-height: 25px;
 			text-align: right;
 			padding-right: 20px;
+		}
+
+		.circle {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			left: 80%;
+			border-radius: 150px;
+			background: url(http://lh3.googleusercontent.com/-x2dJAXTCFu8/AAAAAAAAAAI/AAAAAAAAAAA/rDt4IrtoMXs/s32-c/photo.jpg) no-repeat;
 		}
 
 		#fbar {
@@ -77,7 +90,7 @@
 		}
 
 		input {
-			background-image: url(gif.gif);
+			background-image: url(images/gif.gif);
 			background-repeat: no-repeat;
 			background-position: 99% 50%;
 			background-size: 14px 19px;
@@ -88,13 +101,7 @@
 			margin-bottom: 15px;
 		}
 
-		.circle {
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			border-radius: 150px;
-			background: url(http://lh3.googleusercontent.com/-x2dJAXTCFu8/AAAAAAAAAAI/AAAAAAAAAAA/rDt4IrtoMXs/s32-c/photo.jpg) no-repeat;
-		}
+
 
 		button {
 			background-color: #f8f8f8;
