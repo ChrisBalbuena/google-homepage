@@ -14,7 +14,7 @@
     		list-style-type: none;
 		}
 
-		.slink a:link, .slink a:visited, .lslink a:link {
+		.slink a:link, .slink a:visited, .lslink a:link, a:link {
 			text-decoration: none;
 			color: inherit;
 		}
@@ -64,8 +64,7 @@
 			width: 100%;
 			line-height: 40px;
 			background-color: #f2f2f2;
-			padding-bottom: 0px;
-			margin: 800px 0px 0px 0px;
+			margin: 860px 0px 0px 0px;
 			position: absolute;
 		}
 
@@ -103,7 +102,7 @@
 		}
 
 
-		button {
+		#button1 {
 			background-image: url(images/glass.png);
 			background-position: 55% 50%;
 			background-repeat: no-repeat;
@@ -113,6 +112,41 @@
 			padding: 8px 11px;
 			height: 26px;
 			width: 50px;
+		}
+
+		#button2 {
+			background-image: url(images/figure.gif);
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			border: 1px solid #B2B2B2;
+			background-color: #e4e4e4;
+			padding: 5px 20px;
+			border-radius: 4px;
+		}
+
+		#button3 {
+			background-image: url(images/world.gif);
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			border: 1px solid #B2B2B2;
+			background-color: #e4e4e4;
+			padding: 5px 20px;
+			border-radius: 4px;
+		}
+
+		#button4 {
+			background-image: url(images/cog.gif);
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			border: 1px solid #B2B2B2;
+			background-color: #e4e4e4;
+			padding: 5px 20px;
+			border-radius: 4px;
+		}
+
+		.menubuttons {
+			float: right;
+			padding: 5px 20px 0px 0px;
 		}
 
 		.menu {
@@ -187,4 +221,15 @@
 			color: #0161fd;
 			line-height: 10px;
 			margin: 10px;
+		}
+
+		#Gpage {
+			position: absolute;
+			padding-top: 3px;
+			margin: 765px 0px 0px 260px;
+		}
+
+		#Gnum {
+			position: absolute;
+			margin: 810px 0px 0px 312px;
 		}
